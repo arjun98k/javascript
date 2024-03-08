@@ -7,10 +7,20 @@
 // let v = undefined;
 // let u = null;
 // console.log(typeof q ,typeof g,typeof v,typeof u);
-let myVar = undefined;
+// let myVar = undefined;
 
-if (myVar) {
-  console.log('myVar has a value'+ "   "+ typeof myVar);
-} else {
-  console.log('myVar is null' +" "+ typeof myVar);
+// if (myVar) {
+//   console.log('myVar has a value'+ "   "+ typeof myVar);
+// } else {
+//   console.log('myVar is null' +" "+ typeof myVar);
+// }
+
+// object in javascript
+let obj = {
+    name : "arjun",
+    'job role': 98,
+    handsome : true
 }
+console.log(obj);
+obj.salary = 35000;
+console.log(obj);
